@@ -1,0 +1,148 @@
+/* Global page layout */
+:root {
+    --bg: #f6f7fb;
+    --surface: #ffffff;
+    --text: #20232a;
+    --muted: #4a4f5a;
+    --border: #d4d7e0;
+    --primary: #1a73e8;
+    --accent: #158c4f;
+    --danger: #c3261e;
+    --radius: 8px;
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background-color: var(--bg);
+    background-image: url(https://static.wikitide.net/bandoriwiki/thumb/7/7f/Utau%2C_Bokura_ni_Nareru_Uta_%26_FILM_LIVE.png/800px-Utau%2C_Bokura_ni_Nareru_Uta_%26_FILM_LIVE.png);
+    background-size: cover;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px 20px 36px;
+
+}
+
+header,
+footer {
+    background: var(--surface);
+    padding: 20px 20px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin: 12px 0 0;
+    color: var(--muted);
+}
+
+article {
+    background: var(--surface);
+    padding: 20px;
+    margin-bottom: 16px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article figure {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+article figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--muted);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--surface);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    margin: 20px 0;
+}
+
+thead {
+    background: rgba(26, 115, 232, 0.08);
+}
+
+th,
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+tfoot td {
+    font-weight: 600;
+}
+
+aside {
+    padding: 16px;
+    background: rgba(26, 115, 232, 0.06);
+    border-radius: var(--radius);
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5b2c8a;
+}
+
+a:active {
+    color: var(--danger);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--muted);
+}
+
