@@ -22,8 +22,9 @@ body {
     line-height: 1.6;
     color: var(--text);
     background-color: var(--bg);
-    background-image: url(https://static.wikitide.net/bandoriwiki/thumb/7/7f/Utau%2C_Bokura_ni_Nareru_Uta_%26_FILM_LIVE.png/800px-Utau%2C_Bokura_ni_Nareru_Uta_%26_FILM_LIVE.png);
+    background-image: url(https://imgs.search.brave.com/WS7Ilp4rT0B_Dd6RV8sjDnwRFBRzIIwQCDyhKYOW7BM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9xcGgu/Y2YyLnF1b3JhY2Ru/Lm5ldC9tYWluLXFp/bWctZTUxMzM4MTNh/ZTMwMWYwYWY0ZDI4/ZTY3YzkyZTEzMjU);
     background-size: cover;
+    background-position: center;
 }
 
 main {
